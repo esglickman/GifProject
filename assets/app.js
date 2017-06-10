@@ -32,7 +32,7 @@
           // Creates a div to hold the movie
           
 
-          gifHolder.attr("src", response.data.type[i].images.fixed_height.url);
+          gifHolder.attr("src", response.data[i].images.fixed_height.url);
 
           // Retrieves the Rating data
           $("#showGif").prepend(gifHolder);
